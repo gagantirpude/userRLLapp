@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css" />
+ <title>Register</title>
+</head>
+
+<body>
+ <main>
+  <form class="form" method="post" action="/register">
+   <h1>
+    <%=locals.massages%>
+   </h1>
+   <!-- username -->
+   <label for="username">Username</label>
+   <input type="name" name="username" placeholder="Please Enter Username" />
+   <!--Space  -->
+   <!-- Email -->
+   <label for="email">Email</label>
+   <input type="email" name="email" placeholder="Please Enter Email" />
+   <!--Space  -->
+   <!-- Password -->
+   <label for="password">Password</label>
+   <input type="password" name="password" placeholder="Please Enter Password" />
+   <!--Space  -->
+
+   <button type="submit">Register</button>
+
+  </form>
+ </main>
+
+</body>
+
+</html>
